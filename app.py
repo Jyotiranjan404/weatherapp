@@ -5,7 +5,7 @@ import os
 from flask_cors import CORS,cross_origin
 
 app = Flask(__name__)
-# owmapikey=os.environ.get('119242c426975bc98ee4f259b9551823') #or provide your key here
+# owmapikey=os.environ.get('119242c426975bc98ee4f259b9551823') 
 #owmapikey = '119242c426975bc98ee4f259b9551823'
 owmapikey='82a774294fb1451e8c6a617ff0332333'
 owm = pyowm.OWM(owmapikey)
